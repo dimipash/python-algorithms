@@ -1,25 +1,16 @@
-# Python Algorithms
+# Python Algorithms Collection
 
-## Equilibrium Index
+This repository contains a collection of algorithmic implementations in Python, focusing on various problem-solving techniques and data structure manipulations.
 
-### Problem Description
-The equilibrium index in an array is a position where the sum of elements on the left is equal to the sum of elements on the right.
+## Algorithms Included
 
-### Algorithm Explanation
-1. Calculate the total sum of the array
-2. Traverse the array, keeping track of left and right sums
-3. At each index, check if left_sum equals right_sum
-4. If a match is found, return that index
-5. If no equilibrium index is found, return -1
+- Equilibrium Index Finder
+- (More algorithms to be added)
 
-### Time Complexity
-- O(n), where n is the length of the array
+## Purpose
 
-### Example
-```python
-arr = [-7, 1, 5, 2, -4, 3, 0]
-index = find_equilibrium_index(arr)  # Returns 3
-```
+The goal of this repository is to provide clear, efficient, and well-documented algorithm implementations that can be used as learning resources or reference implementations.
 
-### Implementation Details
-See `equilibrium_index.py` for the full implementation.
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests with new algorithms or improvements to existing ones.
