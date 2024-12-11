@@ -28,38 +28,25 @@ Equilibrium Index: 3 (index where left and right sums are equal)
 """
 
 def find_equilibrium_index(arr):
-    """
-    Find the equilibrium index in the given array.
-    
-    Args:
-        arr (list): Input array of numbers
-    
-    Returns:
-        int: First equilibrium index or -1 if no such index exists
-    """
     total_sum = sum(arr)
     left_sum = 0
     
     for i, num in enumerate(arr):
-        # Calculate right sum by subtracting left sum and current element
         right_sum = total_sum - left_sum - num
         
-        # Check if left and right sums are equal
         if left_sum == right_sum:
             return i
         
-        # Update left sum for next iteration
         left_sum += num
     
-    return -1  # No equilibrium index found
+    return -1
 
-# Example usage and demonstration
+# Example usage
 if __name__ == "__main__":
-    # Test cases
     test_arrays = [
-        [-7, 1, 5, 2, -4, 3, 0],  # Has an equilibrium index
-        [1, 2, 3],                # No equilibrium index
-        [0, 0, 0],                # Multiple possible indices
+        [-7, 1, 5, 2, -4, 3, 0],
+        [1, 2, 3],
+        [0, 0, 0]
     ]
     
     for arr in test_arrays:
