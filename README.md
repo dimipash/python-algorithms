@@ -4,6 +4,7 @@ This repository contains implementations of various algorithms and data structur
 
 ## Files
 - `array_indexing.py`
+- `balanced_parenthesis.py`
 - `avl_tree.py`
 - `binary_node_sum.py`
 - `binary_path_sum.py`
@@ -28,6 +29,7 @@ This repository contains implementations of various algorithms and data structur
 - `hash_map.py`
 - `hash_table_with_linked_list.py`
 - `hash_table.py`
+- `has_loop.py`
 - `hashing.py`
 - `heap_generic.py`
 - `heap.py`
@@ -40,6 +42,7 @@ This repository contains implementations of various algorithms and data structur
 - `linked_list.py`
 - `lowest_common_ancestor.py`
 - `max_fenwick_tree.py`
+- `max_heap.py`
 - `median_two_array.py`
 - `middle_element_of_linked_list.py`
 - `min_heap.py`
@@ -49,8 +52,14 @@ This repository contains implementations of various algorithms and data structur
 - `pairs_with_given_sum.py`
 - `permutations.py`
 - `prefix_sum.py`
+- `priority_queue_using_list.py`
+- `print_reverse.py`
 - `product_sum.py`
 - `quadratic_probing.py`
+- `queue_by_list.py`
+- `queue.py`
 - `randomized_heap.py`
 - `skew_heap.py`
 - `sparse_table.py`
+- `stacks.py`
+- `swap_nodes.py`
