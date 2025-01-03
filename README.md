@@ -14,6 +14,7 @@ This repository contains implementations of various algorithms and data structur
 - `binary_tree.py`
 - `binominal_heap.py`
 - `bloom_filter.py`
+- `bogo_sort.py`
 - `build_kdtree.py`
 - `diameter_binary_tree.py`
 - `diff_views_binary_tree.py`
@@ -34,6 +35,7 @@ This repository contains implementations of various algorithms and data structur
 - `heap_generic.py`
 - `heap.py`
 - `hypercube_points.py`
+- `infix_to_postfix_conversion.py`
 - `is_sorted.py`
 - `is_sum_tree.py`
 - `kd_node.py`
@@ -48,9 +50,12 @@ This repository contains implementations of various algorithms and data structur
 - `min_heap.py`
 - `monotonic_array.py`
 - `nearest_neighbour_search.py`
+- `next_greater_element.py`
 - `number_of_possible_binary_trees.py`
 - `pairs_with_given_sum.py`
 - `permutations.py`
+- `postfix_evaluation.py`
+- `prefix_evaluation.py`
 - `prefix_sum.py`
 - `priority_queue_using_list.py`
 - `print_reverse.py`
@@ -62,4 +67,5 @@ This repository contains implementations of various algorithms and data structur
 - `skew_heap.py`
 - `sparse_table.py`
 - `stacks.py`
+- `stock_span_problem.py`
 - `swap_nodes.py`
