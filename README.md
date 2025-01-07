@@ -16,6 +16,12 @@ This repository contains well-organized implementations of various algorithms an
 ## Sorting Algorithms
 
 -   `bogo_sort.py`
+-   `double_linear_search.py`
+-   `interpolation_search.py`
+-   `jump_search.py`
+-   `linear_search.py`
+-   `sentinel_linear_search.py`
+-   `ternary_search.py`
 -   `bubble_sort.py`
 -   `counting_sort.py`
 -   `double_sort.py`
@@ -85,6 +91,15 @@ This repository contains well-organized implementations of various algorithms an
 ## Mathematical Algorithms
 
 -   `array_indexing.py`
+-   `coin_change.py`
+-   `combination_sum_lv.py`
+-   `factorial.py`
+-   `fast_fibonacci.py`
+-   `fizz_buzz.py`
+-   `integer_partition.py`
+-   `median_of_medians.py`
+-   `quick_select.py`
+-   `tribonacci.py`
 -   `equilibrium_index.py`
 -   `find_triplets_with_zero_sum.py`
 -   `floor_ceiling.py`
@@ -100,6 +115,10 @@ This repository contains well-organized implementations of various algorithms an
 ## String Algorithms
 
 -   `balanced_parenthesis.py`
+-   `edit_distance.py`
+-   `longest_common_substring.py`
+-   `palindrome_partitioning.py`
+-   `word_break.py`
 -   `infix_to_postfix_conversion.py`
 -   `postfix_evaluation.py`
 -   `prefix_evaluation.py`
@@ -114,6 +133,9 @@ This repository contains well-organized implementations of various algorithms an
 ## Miscellaneous
 
 -   `is_sum_tree.py`
+-   `hill_climbing.py`
+-   `sumulated_annealing.py`
+-   `tabu_search.py`
 -   `middle_element_of_linked_list.py`
 -   `monotonic_array.py`
 -   `next_greater_element.py`
