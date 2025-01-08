@@ -91,6 +91,9 @@ This repository contains well-organized implementations of various algorithms an
 ## Mathematical Algorithms
 
 -   `array_indexing.py`
+-   `base_16.py`
+-   `catalan_numbers.py`
+-   `climbing_stairs.py`
 -   `coin_change.py`
 -   `combination_sum_lv.py`
 -   `factorial.py`
@@ -114,6 +117,9 @@ This repository contains well-organized implementations of various algorithms an
 
 ## String Algorithms
 
+-   `affine_cipher.py`
+-   `atbash.py`
+-   `beaufor_cipher.py`
 -   `balanced_parenthesis.py`
 -   `edit_distance.py`
 -   `longest_common_substring.py`
