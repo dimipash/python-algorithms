@@ -16,6 +16,7 @@ This repository contains well-organized implementations of various algorithms an
 ## Sorting Algorithms
 
 -   `bogo_sort.py`
+-   `caesar_cipher.py`
 -   `double_linear_search.py`
 -   `interpolation_search.py`
 -   `jump_search.py`
@@ -91,6 +92,8 @@ This repository contains well-organized implementations of various algorithms an
 ## Mathematical Algorithms
 
 -   `array_indexing.py`
+-   `binary_search.py`
+-   `binary_search_recursive.py`
 -   `base_16.py`
 -   `catalan_numbers.py`
 -   `climbing_stairs.py`
