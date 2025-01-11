@@ -117,6 +117,7 @@ This repository contains well-organized implementations of various algorithms an
 -   `permutations.py`
 -   `prefix_sum.py`
 -   `product_sum.py`
+-   `aliquot_sum.py`
 
 ## String Algorithms
 
