@@ -118,6 +118,32 @@ This repository contains well-organized implementations of various algorithms an
 -   `prefix_sum.py`
 -   `product_sum.py`
 -   `aliquot_sum.py`
+-   `arc_length.py`
+-   `average_mean.py`
+-   `average_median.py`
+-   `average_mode.py`
+-   `avergage_absolute_deviation.py`
+-   `bailey_borwein_plouffe.py`
+-   `base_neg_2_conversion.py`
+-   `binary_exponentiation.py`
+-   `binary_multiplication.py`
+-   `binominal_coefficient.py`
+-   `binominal_distribution.py`
+-   `ceil.py`
+-   `chebyshev_distance.py`
+-   `chudnovsky_algorithm.py`
+-   `collatz_sequence.py`
+-   `combinations.py`
+-   `continued_fraction.py`
+-   `decimal_isolate.py`
+-   `decimal_to_fraction.py`
+-   `double_factorial.py`
+-   `entropy.py`
+-   `euclidean_distance.py`
+-   `extended_euclidean_algorithm.py`
+-   `factors.py`
+-   `floor.py`
+-   `gamma.py`
 
 ## String Algorithms
 
@@ -140,6 +166,18 @@ This repository contains well-organized implementations of various algorithms an
 -   `hashing.py`
 -   `quadratic_probing.py`
 
+## Image Processing
+
+-   `bilateral_filter.py`
+-   `burkes.py`
+-   `canny.py`
+-   `change_brightness.py`
+-   `change_contrast.py`
+-   `check_polygon.py`
+-   `convert_to_negative.py`
+-   `convolve.py`
+-   `digital_image_processing.md`
+
 ## Miscellaneous
 
 -   `is_sum_tree.py`
@@ -150,3 +188,4 @@ This repository contains well-organized implementations of various algorithms an
 -   `monotonic_array.py`
 -   `next_greater_element.py`
 -   `stock_span_problem.py`
+-   `find_max.py`
