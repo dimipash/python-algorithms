@@ -144,6 +144,10 @@ This repository contains well-organized implementations of various algorithms an
 -   `factors.py`
 -   `floor.py`
 -   `gamma.py`
+-   `abs.py`
+-   `adition_without_arithmentic.py`
+-   `rsa_cipher.py`
+-   `rsa_key_generator.py`
 
 ## String Algorithms
 
@@ -159,6 +163,10 @@ This repository contains well-organized implementations of various algorithms an
 -   `postfix_evaluation.py`
 -   `prefix_evaluation.py`
 -   `print_reverse.py`
+-   `alternative_string_arrange.py`
+-   `morse_code.py`
+-   `rot_13.py`
+-   `suffled_shift_cipher.py`
 
 ## Hashing Algorithms
 
@@ -177,6 +185,17 @@ This repository contains well-organized implementations of various algorithms an
 -   `convert_to_negative.py`
 -   `convolve.py`
 -   `digital_image_processing.md`
+-   `dilation_operation.py`
+-   `erosion_operation.py`
+-   `gabor_filter.py`
+-   `gaussian_filter.py`
+-   `histogram_stretch.py`
+-   `laplacian_filter.py`
+-   `local_binary_pattern.py`
+-   `resize.py`
+-   `rotation.py`
+-   `sepia.py`
+-   `sobel_filter.py`
 
 ## Miscellaneous
 
@@ -189,3 +208,4 @@ This repository contains well-organized implementations of various algorithms an
 -   `next_greater_element.py`
 -   `stock_span_problem.py`
 -   `find_max.py`
+-   `index_calculation.py`
