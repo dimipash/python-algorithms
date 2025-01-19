@@ -148,6 +148,20 @@ This repository contains well-organized implementations of various algorithms an
 -   `adition_without_arithmentic.py`
 -   `rsa_cipher.py`
 -   `rsa_key_generator.py`
+-   `automatic_differentiation.py`
+-   `data_transformations.py`
+-   `decision_tree.py`
+-   `dimensionality_reduction.py`
+-   `levenshtein_distance.py`
+-   `lower.py`
+-   `ngram.py`
+-   `pig_latin.py`
+-   `prefix_function.py`
+-   `remove_duplicate.py`
+-   `reverse_letters.py`
+-   `reverse_words.py`
+-   `wave_string.py`
+-   `z_function.py`
 
 ## String Algorithms
 
