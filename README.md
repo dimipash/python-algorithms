@@ -88,12 +88,6 @@ This repository contains well-organized implementations of various algorithms an
 
 - `Graph Algorithms/floyds_cycle_detection.py`
 - `Graph Algorithms/has_loop.py`
-- `Graph Algorithms/dijkstra_shortest_path.py`
-- `Graph Algorithms/floyd_warshall.py`
-- `Graph Algorithms/bellman_ford.py`
-- `Graph Algorithms/kruskal.py`
-- `Graph Algorithms/ford_fulkerson.py`
-- `Graph Algorithms/topological_sort.py`
 
 ## Mathematical Algorithms
 
@@ -106,286 +100,278 @@ This repository contains well-organized implementations of various algorithms an
 - `Mathematical Algorithms/average_median.py`
 - `Mathematical Algorithms/average_mode.py`
 - `Mathematical Algorithms/avergage_absolute_deviation.py`
-- `Mathematical Algorithms/bailey_borwein_plouffe.py`
-- `Mathematical Algorithms/base_16.py`
-- `Mathematical Algorithms/base_neg_2_conversion.py`
-- `Mathematical Algorithms/binary_exponentiation.py`
-- `Mathematical Algorithms/binary_multiplication.py`
-- `Mathematical Algorithms/binary_search.py`
-- `Mathematical Algorithms/binary_search_recursive.py`
-- `Mathematical Algorithms/binominal_coefficient.py`
-- `Mathematical Algorithms/binominal_distribution.py`
-- `Mathematical Algorithms/catalan_numbers.py`
-- `Mathematical Algorithms/ceil.py`
-- `Mathematical Algorithms/chebyshev_distance.py`
-- `Mathematical Algorithms/chudnovsky_algorithm.py`
-- `Mathematical Algorithms/climbing_stairs.py`
-- `Mathematical Algorithms/coin_change.py`
-- `Mathematical Algorithms/collatz_sequence.py`
-- `Mathematical Algorithms/combination_sum_lv.py`
-- `Mathematical Algorithms/combinations.py`
-- `Mathematical Algorithms/continued_fraction.py`
-- `Mathematical Algorithms/data_transformations.py`
-- `Mathematical Algorithms/decimal_isolate.py`
-- `Mathematical Algorithms/decimal_to_fraction.py`
-- `Mathematical Algorithms/decision_tree.py`
-- `Mathematical Algorithms/dimensionality_reduction.py`
-- `Mathematical Algorithms/double_factorial.py`
-- `Mathematical Algorithms/entropy.py`
-- `Mathematical Algorithms/equilibrium_index.py`
-- `Mathematical Algorithms/euclidean_distance.py`
-- `Mathematical Algorithms/extended_euclidean_algorithm.py`
-- `Mathematical Algorithms/factorial.py`
-- `Mathematical Algorithms/factors.py`
-- `Mathematical Algorithms/fast_fibonacci.py`
-- `Mathematical Algorithms/fenwick_tree.py`
-- `Mathematical Algorithms/find_max.py`
-- `Mathematical Algorithms/find_triplets_with_zero_sum.py`
-- `Mathematical Algorithms/fizz_buzz.py`
-- `Mathematical Algorithms/floor.py`
-- `Mathematical Algorithms/floor_ceiling.py`
-- `Mathematical Algorithms/floyds_cycle_detection.py`
-- `Mathematical Algorithms/from_sequence.py`
-- `Mathematical Algorithms/gamma.py`
-- `Mathematical Algorithms/hypercube_points.py`
-- `Mathematical Algorithms/index_calculation.py`
-- `Mathematical Algorithms/integer_partition.py`
-- `Mathematical Algorithms/k_th_largest_element.py`
-- `Mathematical Algorithms/levenshtein_distance.py`
-- `Mathematical Algorithms/lower.py`
-- `Mathematical Algorithms/median_of_medians.py`
-- `Mathematical Algorithms/median_two_array.py`
-- `Mathematical Algorithms/ngram.py`
-- `Mathematical Algorithms/pairs_with_given_sum.py`
-- `Mathematical Algorithms/permutations.py`
-- `Mathematical Algorithms/pig_latin.py`
-- `Mathematical Algorithms/prefix_function.py`
-- `Mathematical Algorithms/prefix_sum.py`
-- `Mathematical Algorithms/product_sum.py`
-- `Mathematical Algorithms/quick_select.py`
-- `Mathematical Algorithms/remove_duplicate.py`
-- `Mathematical Algorithms/reverse_letters.py`
-- `Mathematical Algorithms/reverse_words.py`
-- `Mathematical Algorithms/rsa_cipher.py`
-- `Mathematical Algorithms/rsa_key_generator.py`
-- `Mathematical Algorithms/tribonacci.py`
-- `Mathematical Algorithms/wave_string.py`
-- `Mathematical Algorithms/z_function.py`
-- `Mathematical Algorithms/karatsuba.py`
-- `Mathematical Algorithms/knapsack.py`
+- `bailey_borwein_plouffe.py`
+- `base_16.py`
+- `base_neg_2_conversion.py`
+- `binary_exponentiation.py`
+- `binary_multiplication.py`
+- `binary_search.py`
+- `binary_search_recursive.py`
+- `binominal_coefficient.py`
+- `binominal_distribution.py`
+- `catalan_numbers.py`
+- `ceil.py`
+- `chebyshev_distance.py`
+- `chudnovsky_algorithm.py`
+- `climbing_stairs.py`
+- `coin_change.py`
+- `collatz_sequence.py`
+- `combination_sum_lv.py`
+- `combinations.py`
+- `continued_fraction.py`
+- `data_transformations.py`
+- `decimal_isolate.py`
+- `decimal_to_fraction.py`
+- `decision_tree.py`
+- `dimensionality_reduction.py`
+- `double_factorial.py`
+- `entropy.py`
+- `equilibrium_index.py`
+- `euclidean_distance.py`
+- `extended_euclidean_algorithm.py`
+- `factorial.py`
+- `factors.py`
+- `fast_fibonacci.py`
+- `fenwick_tree.py`
+- `find_max.py`
+- `find_triplets_with_zero_sum.py`
+- `fizz_buzz.py`
+- `floor.py`
+- `floor_ceiling.py`
+- `floyds_cycle_detection.py`
+- `from_sequence.py`
+- `gamma.py`
+- `hypercube_points.py`
+- `index_calculation.py`
+- `integer_partition.py`
+- `k_th_largest_element.py`
+- `levenshtein_distance.py`
+- `lower.py`
+- `median_of_medians.py`
+- `median_two_array.py`
+- `ngram.py`
+- `pairs_with_given_sum.py`
+- `permutations.py`
+- `pig_latin.py`
+- `prefix_function.py`
+- `prefix_sum.py`
+- `product_sum.py`
+- `quick_select.py`
+- `remove_duplicate.py`
+- `reverse_letters.py`
+- `reverse_words.py`
+- `rsa_cipher.py`
+- `rsa_key_generator.py`
+- `tribonacci.py`
+- `wave_string.py`
+- `z_function.py`
 
 ## String Algorithms
 
-- `String Algorithms/affine_cipher.py`
-- `String Algorithms/alternative_string_arrange.py`
-- `String Algorithms/atbash.py`
-- `String Algorithms/balanced_parenthesis.py`
-- `String Algorithms/beaufor_cipher.py`
-- `String Algorithms/edit_distance.py`
-- `String Algorithms/infix_to_postfix_conversion.py`
-- `String Algorithms/longest_common_substring.py`
-- `String Algorithms/morse_code.py`
-- `String Algorithms/palindrome_partitioning.py`
-- `String Algorithms/postfix_evaluation.py`
-- `String Algorithms/prefix_evaluation.py`
-- `String Algorithms/print_reverse.py`
-- `String Algorithms/rot_13.py`
-- `String Algorithms/suffled_shift_cipher.py`
-- `String Algorithms/word_break.py`
-- `String Algorithms/aho_corasick.py`
-- `String Algorithms/boyer_moore.py`
-- `String Algorithms/knuth_morris_pratt.py`
-- `String Algorithms/rabin_karp.py`
-- `String Algorithms/suffix_array.py`
-- `String Algorithms/suffix_automaton.py`
+- `affine_cipher.py`
+- `alternative_string_arrange.py`
+- `atbash.py`
+- `balanced_parenthesis.py`
+- `beaufor_cipher.py`
+- `edit_distance.py`
+- `infix_to_postfix_conversion.py`
+- `longest_common_substring.py`
+- `morse_code.py`
+- `palindrome_partitioning.py`
+- `postfix_evaluation.py`
+- `prefix_evaluation.py`
+- `print_reverse.py`
+- `rot_13.py`
+- `suffled_shift_cipher.py`
+- `word_break.py`
 
 ## Hashing Algorithms
 
-- `Hashing Algorithms/double_hash.py`
-- `Hashing Algorithms/hashing.py`
-- `Hashing Algorithms/quadratic_probing.py`
+- `double_hash.py`
+- `hashing.py`
+- `quadratic_probing.py`
 
 ## Image Processing
 
-- `Image Processing/bilateral_filter.py`
-- `Image Processing/burkes.py`
-- `Image Processing/canny.py`
-- `Image Processing/change_brightness.py`
-- `Image Processing/change_contrast.py`
-- `Image Processing/check_polygon.py`
-- `Image Processing/convert_to_negative.py`
-- `Image Processing/convolve.py`
-- `Image Processing/digital_image_processing.md`
-- `Image Processing/dilation_operation.py`
-- `Image Processing/erosion_operation.py`
-- `Image Processing/gabor_filter.py`
-- `Image Processing/gaussian_filter.py`
-- `Image Processing/histogram_stretch.py`
-- `Image Processing/laplacian_filter.py`
-- `Image Processing/local_binary_pattern.py`
-- `Image Processing/resize.py`
-- `Image Processing/rotation.py`
-- `Image Processing/sepia.py`
-- `Image Processing/sobel_filter.py`
+- `bilateral_filter.py`
+- `burkes.py`
+- `canny.py`
+- `change_brightness.py`
+- `change_contrast.py`
+- `check_polygon.py`
+- `convert_to_negative.py`
+- `convolve.py`
+- `digital_image_processing.md`
+- `dilation_operation.py`
+- `erosion_operation.py`
+- `gabor_filter.py`
+- `gaussian_filter.py`
+- `histogram_stretch.py`
+- `laplacian_filter.py`
+- `local_binary_pattern.py`
+- `resize.py`
+- `rotation.py`
+- `sepia.py`
+- `sobel_filter.py`
 
 ## Miscellaneous
 
-- `Miscellaneous/a_star.py`
-- `Miscellaneous/ant_colony_optimization.py`
-- `Miscellaneous/apriori_algorithm.py`
-- `Miscellaneous/automatic_differentiation.py`
-- `Miscellaneous/binary_node_sum.py`
-- `Miscellaneous/binary_path_sum.py`
-- `Miscellaneous/binary_tree_mirror.py`
-- `Miscellaneous/binary_tree_traversals.py`
-- `Miscellaneous/binary_tree.py`
-- `Miscellaneous/bitap_string_match.py`
-- `Miscellaneous/bloom_filter.py`
-- `Miscellaneous/build_kdtree.py`
-- `Miscellaneous/caesar_cipher.py`
-- `Miscellaneous/canny.py`
-- `Miscellaneous/catalan_numbers.py`
-- `Miscellaneous/ceil.py`
-- `Miscellaneous/change_brightness.py`
-- `Miscellaneous/change_contrast.py`
-- `Miscellaneous/check_anagram.py`
-- `Miscellaneous/check_polygon.py`
-- `Miscellaneous/chudnovsky_algorithm.py`
-- `Miscellaneous/climbing_stairs.py`
-- `Miscellaneous/coin_change.py`
-- `Miscellaneous/collatz_sequence.py`
-- `Miscellaneous/combination_sum_lv.py`
-- `Miscellaneous/combinations.py`
-- `Miscellaneous/continued_fraction.py`
-- `Miscellaneous/convert_to_negative.py`
-- `Miscellaneous/convolve.py`
-- `Miscellaneous/counting_sort.py`
-- `Miscellaneous/credit_card_validator.py`
-- `Miscellaneous/decimal_isolate.py`
-- `Miscellaneous/decimal_to_fraction.py`
-- `Miscellaneous/diameter_binary_tree.py`
-- `Miscellaneous/diff_views_binary_tree.py`
-- `Miscellaneous/dilation_operation.py`
-- `Miscellaneous/disjoint_set.py`
-- `Miscellaneous/distribute_coins.py`
-- `Miscellaneous/double_factorial.py`
-- `Miscellaneous/double_hash.py`
-- `Miscellaneous/double_linear_search.py`
-- `Miscellaneous/double_sort.py`
-- `Miscellaneous/dutch_national_flag_sort.py`
-- `Miscellaneous/edit_distance.py`
-- `Miscellaneous/entropy.py`
-- `Miscellaneous/equilibrium_index.py`
-- `Miscellaneous/erosion_operation.py`
-- `Miscellaneous/euclidean_distance.py`
-- `Miscellaneous/exchange_sort.py`
-- `Miscellaneous/extended_euclidean_algorithm.py`
-- `Miscellaneous/factorial.py`
-- `Miscellaneous/factors.py`
-- `Miscellaneous/fast_fibonacci.py`
-- `Miscellaneous/fenwick_tree.py`
-- `Miscellaneous/find_max.py`
-- `Miscellaneous/find_triplets_with_zero_sum.py`
-- `Miscellaneous/fizz_buzz.py`
-- `Miscellaneous/floor_ceiling.py`
-- `Miscellaneous/floor.py`
-- `Miscellaneous/floyds_cycle_detection.py`
-- `Miscellaneous/from_sequence.py`
-- `Miscellaneous/gabor_filter.py`
-- `Miscellaneous/gamma.py`
-- `Miscellaneous/gaussian_filter.py`
-- `Miscellaneous/gnome_sort.py`
-- `Miscellaneous/has_loop.py`
-- `Miscellaneous/hash_map.py`
-- `Miscellaneous/hash_table_with_linked_list.py`
-- `Miscellaneous/hash_table.py`
-- `Miscellaneous/hashing.py`
-- `Miscellaneous/heap_generic.py`
-- `Miscellaneous/heap.py`
-- `Miscellaneous/hill_climbing.py`
-- `Miscellaneous/histogram_stretch.py`
-- `Miscellaneous/hypercube_points.py`
-- `Miscellaneous/index_calculation.py`
-- `Miscellaneous/infix_to_postfix_conversion.py`
-- `Miscellaneous/insertion_sort.py`
-- `Miscellaneous/integer_partition.py`
-- `Miscellaneous/interpolation_search.py`
-- `Miscellaneous/is_bulgarian_phone_number.py`
-- `Miscellaneous/is_sorted.py`
-- `Miscellaneous/is_sum_tree.py`
-- `Miscellaneous/is_valid_email_address.py`
-- `Miscellaneous/jump_search.py`
-- `Miscellaneous/k_th_largest_element.py`
-- `Miscellaneous/kd_node.py`
-- `Miscellaneous/kdtree.py`
-- `Miscellaneous/laplacian_filter.py`
-- `Miscellaneous/levenshtein_distance.py`
-- `Miscellaneous/linear_search.py`
-- `Miscellaneous/linked_list.py`
-- `Miscellaneous/local_binary_pattern.py`
-- `Miscellaneous/longest_common_substring.py`
-- `Miscellaneous/lower.py`
-- `Miscellaneous/lowest_common_ancestor.py`
-- `Miscellaneous/max_fenwick_tree.py`
-- `Miscellaneous/max_heap.py`
-- `Miscellaneous/median_filter.py`
-- `Miscellaneous/median_of_medians.py`
-- `Miscellaneous/median_two_array.py`
-- `Miscellaneous/middle_element_of_linked_list.py`
-- `Miscellaneous/min_heap.py`
-- `Miscellaneous/monotonic_array.py`
-- `Miscellaneous/morse_code.py`
-- `Miscellaneous/msd_radix_sort.py`
-- `Miscellaneous/naive_string_search.py`
-- `Miscellaneous/natural_sort.py`
-- `Miscellaneous/nearest_neighbour_search.py`
-- `Miscellaneous/next_greater_element.py`
-- `Miscellaneous/ngram.py`
-- `Miscellaneous/number_of_possible_binary_trees.py`
-- `Miscellaneous/odd_even_sort.py`
-- `Miscellaneous/pairs_with_given_sum.py`
-- `Miscellaneous/palindrome_partitioning.py`
-- `Miscellaneous/permutations.py`
-- `Miscellaneous/pig_latin.py`
-- `Miscellaneous/postfix_evaluation.py`
-- `Miscellaneous/prefix_evaluation.py`
-- `Miscellaneous/prefix_function.py`
-- `Miscellaneous/prefix_sum.py`
-- `Miscellaneous/print_reverse.py`
-- `Miscellaneous/priority_queue_using_list.py`
-- `Miscellaneous/product_sum.py`
-- `Miscellaneous/quadratic_probing.py`
-- `Miscellaneous/queue_by_list.py`
-- `Miscellaneous/queue.py`
-- `Miscellaneous/quick_select.py`
-- `Miscellaneous/quick_sort.py`
-- `Miscellaneous/randomized_heap.py`
-- `Miscellaneous/remove_duplicate.py`
-- `Miscellaneous/resize.py`
-- `Miscellaneous/reverse_letters.py`
-- `Miscellaneous/reverse_words.py`
-- `Miscellaneous/rot_13.py`
-- `Miscellaneous/rotation.py`
-- `Miscellaneous/rsa_cipher.py`
-- `Miscellaneous/rsa_key_generator.py`
-- `Miscellaneous/selection_sort.py`
-- `Miscellaneous/sentinel_linear_search.py`
-- `Miscellaneous/sepia.py`
-- `Miscellaneous/shell_sort.py`
-- `Miscellaneous/shrink_shell_sort.py`
-- `Miscellaneous/skew_heap.py`
-- `Miscellaneous/slowsort.py`
-- `Miscellaneous/sobel_filter.py`
-- `Miscellaneous/sparse_table.py`
-- `Miscellaneous/split.py`
-- `Miscellaneous/stacks.py`
-- `Miscellaneous/stock_span_problem.py`
-- `Miscellaneous/stooge_sort.py`
-- `Miscellaneous/suffled_shift_cipher.py`
-- `Miscellaneous/sumulated_annealing.py`
-- `Miscellaneous/swap_nodes.py`
-- `Miscellaneous/tabu_search.py`
-- `Miscellaneous/ternary_search.py`
-- `Miscellaneous/tribonacci.py`
-- `Miscellaneous/wiggle_sort.py`
-- `Miscellaneous/word_break.py`
+- `a_star.py`
+- `ant_colony_optimization.py`
+- `apriori_algorithm.py`
+- `automatic_differentiation.py`
+- `binary_node_sum.py`
+- `binary_path_sum.py`
+- `binary_tree_mirror.py`
+- `binary_tree_traversals.py`
+- `binary_tree.py`
+- `bitap_string_match.py`
+- `bloom_filter.py`
+- `build_kdtree.py`
+- `caesar_cipher.py`
+- `canny.py`
+- `catalan_numbers.py`
+- `ceil.py`
+- `change_brightness.py`
+- `change_contrast.py`
+- `check_anagram.py`
+- `check_polygon.py`
+- `chudnovsky_algorithm.py`
+- `climbing_stairs.py`
+- `coin_change.py`
+- `collatz_sequence.py`
+- `combination_sum_lv.py`
+- `combinations.py`
+- `continued_fraction.py`
+- `convert_to_negative.py`
+- `convolve.py`
+- `counting_sort.py`
+- `credit_card_validator.py`
+- `decimal_isolate.py`
+- `decimal_to_fraction.py`
+- `diameter_binary_tree.py`
+- `diff_views_binary_tree.py`
+- `dilation_operation.py`
+- `disjoint_set.py`
+- `distribute_coins.py`
+- `double_factorial.py`
+- `double_hash.py`
+- `double_linear_search.py`
+- `double_sort.py`
+- `dutch_national_flag_sort.py`
+- `edit_distance.py`
+- `entropy.py`
+- `equilibrium_index.py`
+- `erosion_operation.py`
+- `euclidean_distance.py`
+- `exchange_sort.py`
+- `extended_euclidean_algorithm.py`
+- `factorial.py`
+- `factors.py`
+- `fast_fibonacci.py`
+- `fenwick_tree.py`
+- `find_max.py`
+- `find_triplets_with_zero_sum.py`
+- `fizz_buzz.py`
+- `floor_ceiling.py`
+- `floor.py`
+- `floyds_cycle_detection.py`
+- `from_sequence.py`
+- `gabor_filter.py`
+- `gamma.py`
+- `gaussian_filter.py`
+- `gnome_sort.py`
+- `has_loop.py`
+- `hash_map.py`
+- `hash_table_with_linked_list.py`
+- `hash_table.py`
+- `hashing.py`
+- `heap_generic.py`
+- `heap.py`
+- `hill_climbing.py`
+- `histogram_stretch.py`
+- `hypercube_points.py`
+- `index_calculation.py`
+- `infix_to_postfix_conversion.py`
+- `insertion_sort.py`
+- `integer_partition.py`
+- `interpolation_search.py`
+- `is_bulgarian_phone_number.py`
+- `is_sorted.py`
+- `is_sum_tree.py`
+- `is_valid_email_address.py`
+- `jump_search.py`
+- `k_th_largest_element.py`
+- `kd_node.py`
+- `kdtree.py`
+- `laplacian_filter.py`
+- `levenshtein_distance.py`
+- `linear_search.py`
+- `linked_list.py`
+- `local_binary_pattern.py`
+- `longest_common_substring.py`
+- `lower.py`
+- `lowest_common_ancestor.py`
+- `max_fenwick_tree.py`
+- `max_heap.py`
+- `median_filter.py`
+- `median_of_medians.py`
+- `median_two_array.py`
+- `middle_element_of_linked_list.py`
+- `min_heap.py`
+- `monotonic_array.py`
+- `morse_code.py`
+- `msd_radix_sort.py`
+- `naive_string_search.py`
+- `natural_sort.py`
+- `nearest_neighbour_search.py`
+- `next_greater_element.py`
+- `ngram.py`
+- `number_of_possible_binary_trees.py`
+- `odd_even_sort.py`
+- `pairs_with_given_sum.py`
+- `palindrome_partitioning.py`
+- `permutations.py`
+- `pig_latin.py`
+- `postfix_evaluation.py`
+- `prefix_evaluation.py`
+- `prefix_function.py`
+- `prefix_sum.py`
+- `print_reverse.py`
+- `priority_queue_using_list.py`
+- `product_sum.py`
+- `quadratic_probing.py`
+- `queue_by_list.py`
+- `queue.py`
+- `quick_select.py`
+- `quick_sort.py`
+- `randomized_heap.py`
+- `remove_duplicate.py`
+- `resize.py`
+- `reverse_letters.py`
+- `reverse_words.py`
+- `rot_13.py`
+- `rotation.py`
+- `rsa_cipher.py`
+- `rsa_key_generator.py`
+- `selection_sort.py`
+- `sentinel_linear_search.py`
+- `sepia.py`
+- `shell_sort.py`
+- `shrink_shell_sort.py`
+- `skew_heap.py`
+- `slowsort.py`
+- `sobel_filter.py`
+- `sparse_table.py`
+- `split.py`
+- `stacks.py`
+- `stock_span_problem.py`
+- `stooge_sort.py`
+- `suffled_shift_cipher.py`
+- `sumulated_annealing.py`
+- `swap_nodes.py`
+- `tabu_search.py`
+- `ternary_search.py`
+- `tribonacci.py`
+- `wiggle_sort.py`
+- `word_break.py`
